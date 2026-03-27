@@ -3,7 +3,7 @@ import { MaterialIcons } from "@expo/vector-icons";
 type Category = {
   id: string;
   name: string;
-  icon: keyof typeof MaterialIcons.glyphMap;
+  icon: keyof typeof MaterialIcons.glyphMap; // passando todas as props do Material icons a propriedade icon
 };
 
 export const categories: Category[] = [
