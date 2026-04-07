@@ -5,6 +5,7 @@ import { colors } from "@/styles/colors";
 import { styles } from "./styles";
 
 import { Categories } from "@/components/categories";
+import { Link } from "@/components/link";
 
 
 export default function Index() {
@@ -17,7 +18,10 @@ export default function Index() {
           <MaterialIcons name="add" size={32} color={colors.green[300]} />
         </TouchableOpacity>
       </View>
+
       <Categories />
+
+      <Link name="Mecasync" url="teste.com" onDetails={() => console.log("CLICOU")} />
     </View>
   );
 }
