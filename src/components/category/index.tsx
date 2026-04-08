@@ -14,7 +14,7 @@ export function Category({ name, icon, isSelected, ...rest }: Props) {
   /*if (isSelected == true) {
     colors.green[300];
   } else {
-    colors.gray[400];
+    colors.gray[400];   
   } */
   return (
     <Pressable style={styles.contaner} {...rest}>
